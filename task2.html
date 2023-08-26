@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Website Design</title>
+        <!-- custom css -->
+        <link rel="stylesheet" href="task2.css">
+        <!-- font awesome cdn-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="navbar">
+                <div class="icon">
+                    <h2 class="logo">TATHYA</h2>
+                 </div>
+
+                 <div class="menu">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="#">DESIGN</a></li>
+                        <li><a href="#">CONTACT</a></li>
+
+                    </ul>
+
+                 </div>
+                 <div class="search">
+                    <input class="srch" type="search" name="" placeholder="Type to text">
+                    <a href="#"><button class="btn">Search</button></a>
+                 </div>
+
+            </div>
+
+            <div class="content">
+                <h1>Web Design &<br> <span>Development</span><br>Course</h1>
+                <p class="par">Tathya is an alumni group of members. It's for the development of upcoming new students <br> of the college. It's helpful for 
+                all those students  who have intrest on Web development.<br>
+                They can pursue their technical knowledge by the help of alumni.</p>
+
+                <button class="cn"><a href="#">JOIN US</a></button>
+            
+                <div class="login_form">
+                    <div class="form_title">Login Here</div>
+                    <div class="form_input">
+                        <label for="username">UserName</label>
+                        <input type="text" id="username" required>
+                    </div>
+                    <div class="form_input">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" required>
+                    </div>
+                    <div class="captcha">
+                        <label for="captcha_input">Enter captcha</label>
+                        <div class="preview"></div>
+                        <div class="captcha_form">
+                            <input type="text" id="captcha_form" placeholder="Enter captcha text" required>
+                            <button class="captcha_refresh">
+                                <i class="fa-solid fa-arrows-rotate"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="form_input">
+                        <button id="login_btn">Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- javascript -->
+        <script src="task2.js"></script>
+    </body>
+</html>

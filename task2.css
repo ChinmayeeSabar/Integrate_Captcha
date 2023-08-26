@@ -1,0 +1,253 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    width: 100%;
+    background-image: url(img/t1.jpg);
+    background: linear-gradient;
+    font-family: "Roboto", sans-serif;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: #ff7200;
+}
+
+.search {
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch {
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background-color: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn {
+    outline: none;
+}
+
+.srch:focus {
+    outline: none;
+}
+
+.content {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1 {
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn {
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .cn a {
+    text-decoration: none;
+    color: #fff;
+    transition: .3s ease;
+}
+
+.cn:hover {
+    background-color: #fff;
+}
+
+.content span {
+    color: #ff7200;
+    font-size: 65px;
+}
+
+.login_form {
+    background: linear-gradient(to top, rgba(253, 249, 250, 0.83)50%, rgba(253, 249, 250, 0.83)50%);
+    position: absolute;
+    top: 0%;
+    left: 70%;
+    width: 45%;
+    max-width: 470px;
+    padding: 20px 2px 10px 25px;
+    box-shadow: 0px 5px 10px rgba(253, 249, 250, 0.83);
+}
+
+.login_form .form_title {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #111;
+}
+
+.login_form .form_input {
+    margin: 10px 0px;
+}
+
+.login_form .form_input label,
+.login_form .captcha label {
+    display: block;
+    font-size: 20px;
+    color: #111;
+    margin-bottom: 5px;
+}
+
+.login_form .form_input input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #888;
+    font-size: 15px;
+}
+
+.login_form .captcha {
+    margin: 15px 0px;
+}
+
+.login_form .captcha .preview {
+    color: #555;
+    width: 90%;
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+    line-height: 40px;
+    letter-spacing: 4px;
+    border: 1px dashed #888;
+    font-family: "monospace";
+}
+
+.login_form .captcha .preview span {
+    display: inline-block;
+    user-select: none;
+    color: #ff7200;
+    font-size: 50px;
+}
+
+.login_form .captcha .captcha_form {
+    display: flex;
+}
+
+.login_form .captcha .captcha_form input {
+    width: 83%;
+    font-size: 20px;
+    padding: 8px;
+    border: 1px solid #888;
+}
+
+.login_form .captcha .captcha_form .captcha_refresh {
+    width: 37px;
+    border: none;
+    outline: none;
+    background: #888;
+    color: #eee;
+    cursor: pointer;
+}
+
+.login_form #login_btn {
+    margin-top: 5px;
+    width: 95%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: #ff7200;
+    color: #111;
+    cursor: pointer;
+}
